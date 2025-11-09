@@ -1,0 +1,124 @@
+:root {
+  --primary-color: #ff9500;
+  --bkg-color: #f7f7f8;
+  --main-font: "Be Vietnam Pro", sans-serif;
+  --button-radius: 8px;
+  --section-radius: 12px;
+  --main-color: #262626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bkg-color);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+.container {
+  max-width: 1597px;
+  margin: 0 auto;
+  /* width: 90%; */
+}
+
+.btn {
+  background-color: var(--primary-color);
+  padding: 14px 34px;
+  border-radius: var(--button-radius);
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  border-radius: var(--button-radius);
+  color: var(--main-color);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.row {
+  display: flex;
+}
+
+/* Header*/
+
+.top-header {
+  background-color: var(--primary-color);
+  padding: 14px;
+  border-radius: var(--button-radius);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+
+.mainfont {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.top-header h5 {
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 24px;
+}
+
+.nav-left {
+  display: flex;
+  gap: 50px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 24px;
+  color: black;
+  text-decoration: none;
+  border-radius: var(--button-radius);
+}
+
+nav ul li a:hover {
+  background-color: #f1f1f3;
+}
+
+.sign-up {
+  display: flex;
+}
+
+.signup {
+  display: block;
+  padding: 14px 34px;
+  text-decoration: none;
+}
+
+.signup:hover {
+  background-color: #f1f1f3;
+}
+
+.sign-up .btn {
+  color: var(--bkg-color);
+}
