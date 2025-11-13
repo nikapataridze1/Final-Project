@@ -473,3 +473,117 @@ nav ul li a:hover {
 .get-it-btn:hover {
   background-color: #dfdfdf;
 }
+
+.course-description {
+  color: #4c4c4d;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.testimonial-card p {
+  background-color: white;
+  padding: 50px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #4c4c4d;
+}
+
+.testimonial-story {
+  background-color: #fcfcfd;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.testimonial-user {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonial-user h6 {
+  color: #333333;
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.testimonial-btn {
+  background-color: #f7f7f8;
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 18px 24px;
+  border: 1px solid var(--border-color);
+}
+
+.period {
+  background-color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monthly {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  padding: 14px 30px;
+  border: none;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.yearly {
+  background-color: white;
+  color: #4c4c4d;
+  border-radius: 6px;
+  padding: 14px 30px;
+  border: none;
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.monthly:hover {
+  opacity: 0.8;
+}
+.yearly:hover {
+  background-color: rgb(231, 231, 231);
+}
