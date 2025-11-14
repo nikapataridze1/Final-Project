@@ -549,6 +549,13 @@ nav ul li a:hover {
   border: 1px solid var(--border-color);
 }
 
+.pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+}
+
 .period {
   background-color: white;
   padding: 12px;
@@ -586,4 +593,117 @@ nav ul li a:hover {
 }
 .yearly:hover {
   background-color: rgb(231, 231, 231);
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 30px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.plan {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  padding: 50px 30px 30px 30px;
+  gap: 50px;
+  border-radius: 12px;
+  background-color: rgb(248, 248, 248);
+  border: 1px solid var(--border-color);
+  font-family: var(--main-font);
+}
+
+.plan h5 {
+  font-family: var(--main-font);
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 169%;
+
+  background-color: #fff9f0;
+  padding: 12px 22px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+}
+
+.plan h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.plan h1 {
+  font-family: var(--main-font);
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 73%;
+  text-align: center;
+}
+
+.plan span {
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 73%;
+}
+
+.plan > *:nth-last-child(2) {
+  margin-bottom: -50px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+  border-radius: 14px 14px 0 0;
+  padding: 40px;
+  gap: 30px;
+  background-color: white;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.plan .btn {
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid var(--border-color);
+  padding: 20px 24px;
+  margin-top: 0px;
+}
+
+.features ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px 0 30px;
+}
+
+.features ul li {
+  display: flex;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 14px;
+  align-items: center;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+}
+
+.faq .container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 80px;
+}
+
+.faq {
+  /* background-color: white; */
 }
