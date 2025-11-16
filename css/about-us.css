@@ -7,6 +7,7 @@
   --main-color: #262626;
   --secondary-white: #f1f1f3;
   --border-color: rgb(238, 238, 238);
+  --border1: 1px solid rgb(238, 238, 238);
 }
 
 * {
@@ -1042,4 +1043,279 @@ footer {
 
 .mt50 {
   margin-top: 50px;
+}
+
+/* COURSES-OPEN */
+
+.courses-open-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.courses-open-title h1 {
+  flex: 1;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #262626;
+}
+
+.courses-open-title p {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #59595a;
+}
+
+.courses-open-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.courses-open-card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.courses-open-card h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  text-align: end;
+  color: #262626;
+}
+
+.courses-open-card p {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.6%;
+  color: #333333;
+}
+
+.courses-open-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.courses-open-card-details-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 24px 30px;
+  border: var(--border1);
+  align-items: center;
+}
+
+.details-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.details-content-text h5 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  color: #333333;
+}
+
+.details-content-text p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  line-height: 150%;
+  color: #59595a;
+}
+
+.time-info {
+  display: flex;
+  flex: 0 0 auto;
+  background-color: #f7f7f8;
+  gap: 4px;
+  padding: 12px 14px;
+  border-radius: 6px;
+}
+
+.time-info p {
+  color: #59595a;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.courses-open-card-details-content:hover {
+  border: 1px solid #ffeacc;
+  box-shadow: 0 0 10px #ffeacc;
+}
+
+.courses-open-card-details-content:hover .time-info {
+  background-color: #ffeacc;
+}
+
+.courses-open-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ABOUT-US */
+
+.achievements {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.achievements-before-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 300px;
+}
+
+.achievements-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.achievements-text h1 {
+  font-family: var(--main-font);
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 48px;
+  color: #333333;
+}
+
+.achievements-text p {
+  font-family: var(--main-font);
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 18px;
+  color: #59595a;
+}
+
+.achievements-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.achievement-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.achievement-card-text h3 {
+  font-family: var(--main-font);
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 24px;
+  color: #262626;
+}
+
+.achievement-card-text p {
+  font-family: var(--main-font);
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 18px;
+  color: #59595a;
+}
+
+.together-banner {
+  display: flex;
+
+  background-color: white;
+  padding: 80px;
+  gap: 300px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* position: absolute; */
+  z-index: 1;
+}
+
+.banner-title h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #262626;
+}
+
+.banner-title .title-span {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+.banner-title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #4c4c4d;
+}
+
+.together-banner .btn {
+  flex: 0 0 auto;
+  padding: 18px 24px;
+  text-align: center;
+  border-radius: 8px;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0%;
+  line-height: 150%;
+  text-align: center;
+  z-index: 1;
+}
+
+.together-banner::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/banner-background.png);
+
+  top: 0%; /* vertically centered */
+  right: 9%; /* right side */
+  /* transform: translateY(-50%); center vertically */
+  width: 445px;
+  height: 445px;
+  background-repeat: no-repeat;
+
+  z-index: 0;
+  opacity: 0.9;
 }
